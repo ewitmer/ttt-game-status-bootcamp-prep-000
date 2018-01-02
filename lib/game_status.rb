@@ -40,4 +40,11 @@ def draw?(board)
     return false
   end
 end
+
+def over?(board)
+  if won?(board) == true || draw(board)
+    return TRUE
+  else
+    return false
+end
     
