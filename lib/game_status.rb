@@ -51,7 +51,7 @@ end
 
 def winner(board)
   if won?(board) == false 
-    return false
+    return nil
   else 
     combo = won?(board)
     return board[combo[0]]
