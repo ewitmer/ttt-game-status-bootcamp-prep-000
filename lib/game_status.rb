@@ -32,4 +32,12 @@ def full?(board)
     number != " "
   end
 end
+
+def draw?(board)
+  if won?(board) == false && full?(board) == TRUE
+    return true
+  else
+    return false
+  end
+end
     
