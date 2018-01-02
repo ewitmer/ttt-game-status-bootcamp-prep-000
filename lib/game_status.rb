@@ -28,5 +28,8 @@ def won?(board)
 end
 
 def full?(board)
-  board.each |square|
+  board.all? do |number|
+  number != " "
+end
+end
     
