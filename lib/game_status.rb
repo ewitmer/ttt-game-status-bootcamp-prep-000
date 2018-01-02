@@ -29,7 +29,7 @@ end
 
 def full?(board)
   board.all? do |number|
-  number != " "
-end
+    number != " "
+  end
 end
     
